@@ -24,7 +24,7 @@ class LegacyInitCommand extends ContainerAwareCommand
                     new InputArgument('src', InputArgument::OPTIONAL, 'The src directory for legacy files', 'src/legacy_files'),
                 )
             )
-            ->setDescription('Inits folders you can use when migrating from eZ Publihs install to eZ Platform with Legacy Bridge')
+            ->setDescription('Inits folders you can use when migrating from eZ Publish install to eZ Platform with Legacy Bridge')
             ->setHelp(
                 <<<EOT
 The command <info>%command.name%</info> creates the following folders for migration usage:
