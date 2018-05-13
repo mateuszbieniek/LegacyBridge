@@ -43,7 +43,7 @@ The benefit of this is:
 3. Placing these files directly in ezpublish_legacy folder will lead to them getting removed in some cases when composer
    needs to completely replace ezpublish-legacy package for different reasons.
 
-<comment>NOTE: Look towards 'ezpublish:legacybundles:install_extensions' command for how you handle legacy extensions.</comment>
+<comment>NOTE: Once this is ran you'll get instructions on which commands to run to setup symlinks once you have populated the folders.</comment>
 EOT
             );
     }
