@@ -29,7 +29,7 @@ class LegacyInitCommand extends ContainerAwareCommand
                 <<<EOT
 The command <info>%command.name%</info> creates the following folders for migration usage:
 - src/AppBundle/ezpublish_legacy => Optionaly for extensions you want to version in your project source (as opposed to install using composer)
-- src/legacy_files/design  => Optionally for cusotm designs not already made part of an extension
+- src/legacy_files/design  => Optionally for custom designs not already made part of an extension
 - src/legacy_files/settings/override => Folder for override settings for legacy
 - src/legacy_files/settings/siteaccess => Folder for siteaccess settings for legacy
 
